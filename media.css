@@ -1,0 +1,155 @@
+@media (max-width: 1200px) {
+  .featured-product {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 1125px) {
+  .featured-product {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .section2-l {
+    width: 100%;
+  }
+  .section2-l img {
+    width: 100%;
+    height: fit-content;
+  }
+  .sercice-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 925px) {
+  .section-1-r {
+    width: 100%;
+  }
+  .section-1-r img {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .featured-product {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .section2-l {
+    width: 100%;
+  }
+  .section2-l img {
+    width: 100%;
+    height: fit-content;
+  }
+  .boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .sercice-body {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 750px) {
+  .nav {
+    display: none;
+  }
+  .mobile-menu .fa-bars {
+    display: block;
+  }
+  .sercice-body {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 700px) {
+  .footercontent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .section-1 {
+    grid-template-columns: 1fr;
+  }
+  .section-1-l {
+    padding-bottom: 30px;
+  }
+  .section2 {
+    grid-template-columns: 1fr;
+  }
+  .featured-product {
+    grid-template-columns: 1fr;
+  }
+  .product {
+    width: 95%;
+  }
+}
+@media (max-width: 610px) {
+  .footercontent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .main-content {
+    font-size: 38px;
+  }
+}
+@media (max-width: 510px) {
+  .service-content {
+    width: fit-content;
+  }
+  .boxes {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 470px) {
+  .main-content {
+    padding-top: 50px;
+  }
+  .why-choosing-us .heading {
+    font-size: 38px;
+  }
+  .services-head,
+  .section2-r-head,
+  .featured-head {
+    font-size: 38px;
+  }
+}
+@media (max-width: 390px) {
+  .main-content {
+    font-size: 28px;
+  }
+  .why-choosing-us .heading {
+    font-size: 28px;
+  }
+  .services-head,
+  .section2-r-head,
+  .featured-head,
+  .section-1-l-head {
+    font-size: 28px;
+  }
+}
+@media (max-width: 350px) {
+  .product{
+      width: 200px;
+      overflow: hidden;
+  }
+  .product img{
+    width: 200px !important;
+    height: auto !important;
+  }
+  .main-content {
+    font-size: 25px;
+  }
+  .search,{
+      width:fit-content !important;
+  }
+  .mailbar,.section2-r{
+      width: 80vw;
+  }
+  .content-profile img{
+      height: 50px;
+  }
+  .footercontent{
+      grid-template-columns: 1fr;
+  }
+}
